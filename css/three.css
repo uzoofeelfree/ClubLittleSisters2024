@@ -1,0 +1,196 @@
+  /* Styling the moving element */
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('../fonts/Pretendard-Regular.woff2') format('woff2'),
+       url('../fonts/Pretendard-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+html, body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  /*    overflow: hidden;*/
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  width: 19200px;
+  height: 5400px;
+  overflow-y: hidden;
+  /*    height: 100%;*/
+}
+
+#soli{
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  z-index: 0;
+  top: 0vh;
+  left: 0vw;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  border: 1px solid magenta;  
+}
+
+
+/*ladder is <img>*/
+#ladder{
+  border:2px solid black;
+  width:90%;
+  position:relative;
+  top:0%;
+  left:0%;
+}
+
+.soli-text{
+  height:27vh;
+  position: absolute;
+  background-color: transparent;
+  overflow-y: hidden;
+  overflow-x: visible;
+}
+
+.no-lineheight{
+  line-height: 0;
+}
+
+/* #yellow, red, green = .soli-text */
+#yellow{
+  top: 6%;
+  left: 19.5%;
+}
+
+#red{
+  top: 31.5%;
+  left: 44.5%;
+}
+
+#green{
+  top: 67%;
+  left: 1.5%;
+}
+
+.yellowbox, .greenbox, .redbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+  overflow-x: visible;
+  width: 58.5vw;
+  height: 100%;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  /* max-height: 100%; */
+  white-space: nowrap;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.yellowbox::-webkit-scrollbar, .greenbox::-webkit-scrollbar, .redbox::-webkit-scrollbar {
+  display: none;
+}
+
+.yellowpara{
+  position: relative;
+  width: 100%;
+  padding-top: 8%;
+  padding-bottom: 10%;
+  /* height: 27vh; */
+}
+
+.yellowpara p{
+  font-size:32px;
+  text-align: center;
+  line-height: 0;
+  height:4vh;
+  margin-bottom:0.5vh;
+  margin-top:0.5vh;
+  /* margin-bottom:-1vh;
+  margin-top:-1vh; */
+}
+
+.greenpara{
+  position: relative;
+  width: 100%;
+  padding-top: 8%;
+  padding-bottom: 10%;
+  /* height: 27vh; */
+}
+
+.greenpara p{
+  font-size:32px;
+  text-align: center;
+  line-height: 0;
+  height:4vh;
+  margin-bottom:0.5vh;
+  margin-top:0.5vh;
+}
+
+.redpara{
+  position: relative;
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  /* height: 27vh; */
+}
+
+.redpara p{
+  font-size:16px;
+  justify-content: left !important;
+  line-height: 0;
+  height:4vh;
+  margin-top:0;
+  margin-bottom:-1.5vh;
+}
+
+.soli-text p{
+  font-family: Pretendard-Regular;
+  overflow-x: visible;
+  white-space: nowrap;
+  /* text-align: center; */
+  /* line-height: 6.4; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* height: 27vh; */
+  transform-style: preserve-3d;
+}
+
+.splitting[data-scroll] .word{
+  transition: transform 5s cubic-bezier(.3, 0, .3, 1), opacity .3s linear;
+  transition-delay: calc( 20ms * var(--char-index) ); 
+}
+
+.whitespace{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* #target2g .char,
+#target4g .char,
+#target6g .char,
+#target8g .char {
+  letter-spacing: 4px; 
+} */
+
+/* .char{
+  display: inline-block;
+  opacity:0;
+  will-change: transform, opacity; 
+  transform-origin: bottom center; 
+} */
