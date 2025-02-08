@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/splitting.css" />
+    <link rel="stylesheet" type="text/css" href="./css/splitting-cells.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting/dist/splitting.css" /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!--
+        <link
+      rel="stylesheet"
+      media="only screen and (min-width: 1080px) and (max-width: 1440px)"
+      href="./css/laptop_style.css"
+        />
+        <link rel = "stylesheet" href = "./css/desktop_style.css" media = "only screen and (min-width: 1441px) and (max-width: 1920px) ">
+-->
+    <title>Club Little Sisters 2024</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <section id="oszu">
+        <!--Homme-->
+        <div id="homme">
+          <div id="sym1" class="sym">
+            <img src="./images/oszu/new_sym1.svg" alt="homme symbol" />
+            <!-- <img src="./images/oszu/symbol1.svg" alt="homme symbol" /> -->
+          </div>
+
+          <div id="title1" class="oszu-title">
+            <img src="./images/oszu/title1.svg" alt="text for homme symbol" />
+          </div>
+
+          <div class="smooth" id="smooth1"></div>
+
+          <div id="fog1" class="fog">
+            <img src="./images/oszu/fog_new.svg" alt="fog image" />
+          </div>
+
+          <div class="topblur" id="topblur1"></div>
+
+          <div id="tx1" class="tx">
+            <img
+              src="./images/oszu/text_homme2.svg"
+              alt="text for homme symbol" />
+          </div>
+        </div>
+
+        <!--Femme-->
+        <div id="femme">
+          <div id="sym2" class="sym">
+            <img src="./images/oszu/new_sym2.svg" alt="femme symbol" />
+            <!-- <img src="./images/oszu/symbol2.svg" alt="femme symbol" /> -->
+          </div>
+
+          <div id="title2" class="oszu-title">
+            <img src="./images/oszu/title2.svg" alt="text for femme symbol" />
+          </div>
+
+          <div class="smooth" id="smooth2"></div>
+
+          <div id="fog2" class="fog">
+            <img src="./images/oszu/fog_new.svg" alt="fog image" />
+          </div>
+
+          <div class="topblur" id="topblur2"></div>
+
+          <div id="tx2" class="tx">
+            <img
+              src="./images/oszu/text_femme2.svg"
+              alt="text for femme symbol" />
+          </div>
+
+          <div id="footnote-femme" class="footnote">
+            <img
+              src="./images/oszu/footnote-femme.svg"
+              alt="Footnote for femme text" />
+          </div>
+        </div>
+
+        <!--Non-Binary-->
+        <div id="non-binary">
+          <div id="sym3" class="sym">
+            <img src="./images/oszu/new_sym3.svg" alt="non-binary symbol" />
+            <!-- <img src="./images/oszu/symbol3.svg" alt="non-binary symbol" /> -->
+          </div>
+          <div id="title3" class="oszu-title">
+            <img
+              src="./images/oszu/title3.svg"
+              alt="text for non-binary symbol" />
+          </div>
+
+          <div class="smooth" id="smooth3"></div>
+
+          <div id="fog3" class="fog">
+            <img src="./images/oszu/fog_new.svg" alt="fog image" />
+          </div>
+
+          <div class="topblur" id="topblur3"></div>
+
+          <div id="tx3" class="tx">
+            <img
+              src="./images/oszu/text_nonbinary2.svg"
+              alt="text for non-binary symbol" />
+          </div>
+        </div>
+
+        <!--Gay & Lesbian part-->
+        <div id="gay-lesbian">
+          <div id="sym4" class="sym">
+            <img src="./images/oszu/new_sym4.svg" alt="gay-lesbian symbol" />
+            <!-- <img src="./images/oszu/symbol4.svg" alt="gay-lesbian symbol" /> -->
+          </div>
+
+          <div id="title4" class="oszu-title">
+            <img
+              src="./images/oszu/title4.svg"
+              alt="text for gay-lesbian symbol" />
+          </div>
+
+          <div class="smooth" id="smooth4"></div>
+
+          <div id="fog4" class="fog">
+            <img src="./images/oszu/fog_new.svg" alt="fog image" />
+          </div>
+
+          <div class="topblur" id="topblur4"></div>
+
+          <div id="tx4" class="tx">
+            <img
+              src="./images/oszu/text_gaylesbian2.svg"
+              alt="text for gay-lesbian symbol" />
+          </div>
+        </div>
+
+        <!--Hetero part-->
+        <div id="hetero">
+          <div id="sym5" class="sym">
+            <img src="./images/oszu/new_sym5.svg" alt="heterosexual symbol" />
+            <!-- <img src="./images/oszu/symbol5.svg" alt="heterosexual symbol" /> -->
+          </div>
+
+          <div id="title5" class="oszu-title">
+            <img
+              src="./images/oszu/title5.svg"
+              alt="text for heterosexual symbol" />
+          </div>
+
+          <div class="smooth" id="smooth5"></div>
+
+          <div id="fog5" class="fog">
+            <img src="./images/oszu/fog_new.svg" alt="fog image" />
+          </div>
+
+          <div class="topblur" id="topblur5"></div>
+
+          <div id="tx5" class="tx">
+            <img
+              src="./images/oszu/text_hetero2.svg"
+              alt="text for heterosexual symbol" />
+          </div>
+        </div>
+
+        <!--Bi&Pansexual part-->
+        <div id="bi-pan">
+          <div id="sym6" class="sym">
+            <img src="./images/oszu/new_sym6.svg" alt="Bi&Pansexual symbol" />
+            <!-- <img src="./images/oszu/symbol6.svg" alt="Bi&Pansexual symbol" /> -->
+          </div>
+
+          <div id="title6" class="oszu-title">
+            <img
+              src="./images/oszu/title6.svg"
+              alt="text for Bi&Pansexual symbol" />
+          </div>
+
+          <div class="smooth" id="smooth6"></div>
+
+          <div id="fog6" class="fog">
+            <img src="./images/oszu/fog_new.svg" alt="fog image" />
+          </div>
+
+          <div class="topblur" id="topblur6"></div>
+
+          <div id="tx6" class="tx">
+            <img
+              src="./images/oszu/text_bi-pan2.svg"
+              alt="text for Bi&Pansexual symbol" />
+          </div>
+        </div>
+
+        <!--Transgender part-->
+        <div id="trans">
+          <div id="sym7" class="sym">
+            <img src="./images/oszu/new_sym7.svg" alt="Transgender symbol" />
+            <!-- <img src="./images/oszu/symbol7.svg" alt="Transgender symbol" /> -->
+          </div>
+
+          <div id="title7" class="oszu-title">
+            <img
+              src="./images/oszu/title7.svg"
+              alt="text for Transgender symbol" />
+          </div>
+
+          <div class="smooth" id="smooth7"></div>
+
+          <div id="fog7" class="fog">
+            <img src="./images/oszu/fog_new.svg" alt="fog image" />
+          </div>
+
+          <div class="topblur" id="topblur7"></div>
+
+          <div id="tx7" class="tx">
+            <img
+              src="./images/oszu/text_trans2.svg"
+              alt="text for Transgender symbol" />
+          </div>
+
+          <div id="footnote-trans" class="footnote">
+            <img
+              src="./images/oszu/footnote-trans.svg"
+              alt="Footnote for trans text" />
+          </div>
+        </div>
+      </section>
+
+      <section class="cls" id="cls1">
+        <video width="250" playsinline autoplay loop muted>
+          <source src="./images/text_animation01.mp4" />
+        </video>
+      </section>
+
+      <section class="cls" id="cls2">
+        <video width="250" playsinline autoplay loop muted>
+          <source src="./images/text_animation01.mp4" />
+        </video>
+      </section>
+
+      <section class="cls" id="cls3">
+        <video width="250" playsinline autoplay loop muted>
+          <source src="./images/text_animation01.mp4" />
+        </video>
+      </section>
+
+      <section class="cls" id="cls4">
+        <video width="250" playsinline autoplay loop muted>
+          <source src="./images/text_animation01.mp4" />
+        </video>
+      </section>
+
+      <section class="cls" id="cls5">
+        <video width="250" playsinline autoplay loop muted>
+          <source src="./images/text_animation01.mp4" />
+        </video>
+      </section>
+
+      <section class="cls" id="cls6">
+        <video width="250" playsinline autoplay loop muted>
+          <source src="./images/text_animation01.mp4" />
+        </video>
+      </section>
+
+      <section id="mathilde">
+        <div id="envelop" class="">
+          <img src="./images/mathilde/0.png" alt="envelop image" />
+        </div>
+
+        <div id="textEnvKR1" class="textEnvelop"></div>
+        <div id="textEnvEN1" class="textEnvelop"></div>
+        <div id="textEnvFR1" class="textEnvelop"></div>
+        <div id="textEnvKR2" class="textEnvelop"></div>
+        <div id="textEnvEN2" class="textEnvelop"></div>
+        <div id="textEnvFR2" class="textEnvelop"></div>
+        <!-- <div id="textEnvKR3" class="textEnvelop"></div>
+      <div id="textEnvEN3" class="textEnvelop"></div>
+      <div id="textEnvFR3" class="textEnvelop"></div>
+      <div id="textEnvKR4" class="textEnvelop"></div>
+      <div id="textEnvEN4" class="textEnvelop"></div>
+      <div id="textEnvFR4" class="textEnvelop"></div> -->
+
+        <div id="m1" class="none animation">
+          <img src="./images/mathilde/1.png" alt="first text displayed" />
+        </div>
+
+        <div id="m2" class="none animation">
+          <img src="./images/mathilde/2.png" alt="second text displayed" />
+        </div>
+
+        <div id="m3" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/3.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m4" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/4.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m5" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/5.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m6" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/6.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m7" class="none animation">
+          <img src="./images/mathilde/7.png" alt="fourth text displayed" />
+        </div>
+
+        <div id="m8" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/8.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m9" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/9.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m10" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/10.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m11" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/11.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m12" class="none animation">
+          <img src="./images/mathilde/12.png" alt="12th text displayed" />
+        </div>
+
+        <div id="m13" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/13.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m14" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/14.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m15" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/15.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m16" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/16.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m17" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/17.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m18" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/18.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m19" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/19.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m20" class="none animation">
+          <img src="./images/mathilde/20.png" alt="20th text displayed" />
+        </div>
+
+        <div id="m21" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/21.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m22" class="none animation">
+          <img src="./images/mathilde/22.png" alt="22th text displayed" />
+        </div>
+
+        <div id="m23" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/23.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m24" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/24.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m25" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/25.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m26" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/26.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m27" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/27.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m28" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/28.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m29" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/29.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m30" class="none animation">
+          <img src="./images/mathilde/30.png" alt="30th text displayed" />
+        </div>
+
+        <div id="m31" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/31.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m32" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/32.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m33" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/33.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m34" class="none animation">
+          <img src="./images/mathilde/34.png" alt="34th text displayed" />
+        </div>
+
+        <div id="m35" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/35.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m36" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/36.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m37" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/37.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m38" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/38.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m39" class="none animation">
+          <img src="./images/mathilde/39.png" alt="39th text displayed" />
+        </div>
+
+        <div id="m40" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/40.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m41" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/41.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div id="m42" class="none animation">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/mathilde/42.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <img
+        src="./images/inst1.svg"
+        alt="instruction1"
+        class="single"
+        id="inst1" />
+
+      <img
+        src="./images/inst2.svg"
+        alt="instruction2"
+        class="single"
+        id="inst2" />
+
+      <img
+        src="./images/inst3.svg"
+        alt="instruction3"
+        class="single"
+        id="inst3" />
+
+      <img
+        src="./images/inst4.svg"
+        alt="top group images"
+        class="single"
+        id="inst4" />
+
+      <img
+        src="./images/inst5.svg"
+        alt="top group images"
+        class="single"
+        id="inst5" />
+
+      <img
+        src="./images/inst6.svg"
+        alt="instruction6"
+        class="single"
+        id="inst6" />
+
+      <img
+        src="./images/inst7.svg"
+        alt="instruction7"
+        class="single"
+        id="inst7" />
+
+      <img
+        src="./images/inst8.svg"
+        alt="instruction8"
+        class="single"
+        id="inst8" />
+
+      <img
+        src="./images/top-group1.svg"
+        alt="top group images"
+        class="single"
+        id="topgroup1" />
+      <img
+        src="./images/Asset 8-1.png"
+        alt="top group images"
+        class="single"
+        id="topgroup2" />
+      <img
+        src="./images/oszu-mathilde.svg"
+        alt="oszu-mathilde-bridge"
+        class="single"
+        id="oszu-mathilde-bridge" />
+      <img
+        src="./images/oszu-mathilde-center.svg"
+        alt="oszu-mathilde-bridge"
+        class="single"
+        id="oszu-mathilde-center" />
+      <!-- <img
+        src="./images/oszu-mathilde-line.svg"
+        alt="oszu-mathilde-line"
+        class="single"
+        id="oszu-mathilde-line" /> -->
+      <img
+        src="./images/Asset 9-1.png"
+        alt="oszu-mathilde-bridge"
+        class="single"
+        id="oszu-under" />
+        
+      <img
+        src="./images/figure-head1.png"
+        alt="colorful figure head"
+        class="single"
+        id="colorful-figure-head1" />
+
+      <img
+        src="./images/figure-head2.png"
+        alt="colorful figure head2"
+        class="single"
+        id="colorful-figure-head2" />
+
+      <img
+        src="./images/figure-body.png"
+        alt="colorful figure body"
+        class="single"
+        id="colorful-figure-body" />
+
+      <!-- <img
+        src="./images/Group 32.png"
+        alt="colorful figure"
+        class="single"
+        id="colorful-figure" /> -->
+      <img
+        src="./images/paths-jahz.svg"
+        alt="paths jahz"
+        class="single"
+        id="paths-jahz" />
+      <img
+        src="./images/jahz-under.svg"
+        alt="jahz-under-line"
+        class="single"
+        id="jahz-under" />
+      <img
+        src="./images/Group 35.png"
+        alt="images near jahz"
+        class="single"
+        id="jahz-under-images" />
+      <img
+        src="./images/shirley-path.svg"
+        alt="images near jahz"
+        class="single"
+        id="shirley-path" />
+      <img
+        src="./images/mathilde-right.svg"
+        alt="mathilde-right"
+        class="single"
+        id="mathilde-right" />
+      <img
+        src="./images/maria-left-bottom.svg"
+        alt="maria-left-bottom"
+        class="single"
+        id="maria-left-bottom" />
+      <img
+        src="./images/mathilde-soli-path.svg"
+        alt="mathilde-soli-path"
+        class="single"
+        id="mathilde-soli-path" />
+      <img
+        src="./images/maria-soli-path.svg"
+        alt="maria-soli-path"
+        class="single"
+        id="maria-soli-path" />
+      <img
+        src="./images/Asset 10.png"
+        alt="shut up"
+        class="single"
+        id="maria-soli-element" />
+      <img
+        src="./images/soli-right-path.svg"
+        alt="soli-right-path"
+        class="single"
+        id="soli-right-path" />
+      <img
+        src="./images/bottom-right-element.png"
+        alt="bottom-right-element"
+        class="single"
+        id="bottom-right-element" />
+      <img
+        src="./images/soli-jeon.svg"
+        alt="soli-jeon road guide"
+        class="single"
+        id="soli-jeon" />
+      <img
+        src="./images/maria-guide.svg"
+        alt="maria road guide"
+        class="single"
+        id="maria-guide" />
+      <img
+        src="./images/maria-right-path.svg"
+        alt="a right path from maria"
+        class="single"
+        id="maria-right-path" />
+      <img
+        src="./images/Asset 22.png"
+        alt="Element from right side Maria"
+        class="single"
+        id="maria-right-element" />
+      <img
+        src="./images/Asset 12.png"
+        alt="Braashhh near Maria"
+        class="single"
+        id="maria-right-braash" />
+      <img
+        src="./images/mathilde-path-text1.svg"
+        alt="mathilde-path-text1.svg"
+        class="single"
+        id="mathilde-right-path1" />
+      <img
+        src="./images/mathilde-right-path2.svg"
+        alt="mathilde-right-path2"
+        class="single"
+        id="mathilde-right-path2" />
+      <img
+        src="./images/Asset 14.png"
+        alt="elements between mathilde and soli"
+        class="single"
+        id="mathilde-soli-element" />
+      <img
+        src="./images/soli-mat-paths.svg"
+        alt="paths between mathilde and soli"
+        class="single"
+        id="soli-mat-paths" />
+      <img
+        src="./images/Asset 11.png"
+        alt="shout elements"
+        class="single"
+        id="top-shout" />
+      <img
+        src="./images/top-right-line.svg"
+        alt="top-right-line"
+        class="single"
+        id="top-right-line" />
+      <img
+        src="./images/oszu-colorful-path.svg"
+        alt="oszu-colorful-path"
+        class="single"
+        id="oszu-colorful-path" />
+      <img
+        src="./images/right-long.svg "
+        alt="right side long path"
+        class="single"
+        id="right-long" />
+      <!-- <img
+        src="./images/braah-top-line.svg "
+        alt="braahsh image top-line"
+        class="single"
+        id="braah-top-line" />  -->
+      <!-- <img
+        src="./images/ "
+        alt="braahsh image top-line"
+        class="single"
+        id="" />    -->
+
+      <!--Maria section-->
+      <section id="maria">
+        <!--Video as the first layer-->
+        <article id="vid_maria">
+          <!--playsinline autoplay loop muted비디오태그안에 집어넣기 플레이바임 controls지우기-->
+          <video width="250" id="myVideo" playsinline autoplay loop muted>
+            <!-- <source src="/media/cc0-videos/flower.webm" type="video/webm" /> -->
+            <source
+              src="./images/maria/1204_mariia_final.mp4"
+              type="video/mp4" />
+          </video>
+        </article>
+
+        <!--Drawing Canvas-->
+        <div id="drawing">
+          <canvas id="canvas"> </canvas>
+        </div>
+        <!--Drawing End-->
+      </section>
+
+      <!--Soli Section-->
+      <section id="soli">
+        <!-- <img
+          src="./images/soli/1107_soli_image.svg"
+          id="ladder"
+          alt="Artist Soli's area" /> -->
+
+        <div id="soli-area">
+          <video playsinline autoplay loop muted width="250">
+            <source src="./images/soli/1209_soli_final.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <article class="soli-text" id="yellow">
+          <div class="yellowbox" id="yellowbox">
+            <div class="yellowpara">
+              <p data-splitting="words" class="target split-words" id="target1">
+                움직이는 버스에서
+              </p>
+              <p data-splitting="words" class="target split-words" id="target2">
+                Dans un bus en mouvement,
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p data-splitting="words" class="target split-words" id="target3">
+                피자, 우산, 가방을 한꺼번에 들고 있었다.
+              </p>
+              <p data-splitting="words" class="target split-words" id="target4">
+                je tenais une boîte de pizza, un parapluie et un sac.
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p data-splitting="words" class="target split-words" id="target5">
+                모두 양손에, 한가득 쥐고 있던 참이었다.
+              </p>
+              <p data-splitting="words" class="target split-words" id="target6">
+                Tout cela dans mes deux mains.
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p data-splitting="words" class="target split-words" id="target7">
+                박스 안의 피자 몇 조각이 움직이는 것이 느껴졌다.
+              </p>
+              <p data-splitting="words" class="target split-words" id="target8">
+                J'ai senti les parts de pizza bouger à l'intérieur.
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p data-splitting="words" class="target split-words" id="target9">
+                버스가 심하게 흔들렸고, 피자 박스가 바닥에 떨어졌다.
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target10">
+                Le bus secouait fortement, et la boîte de pizza a fini par
+                tomber par terre.
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target11">
+                앞에 앉아 있던 말레이시아 혹은 인도네시아 출신으로 보이는
+                여자분이
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target12">
+                Une dame assise en face de moi, qui semblait être d'origine
+                malaisienne ou indonésienne,
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target13">
+                갑자기 피자 박스를 자기 무릎 위에 올려놔주었다.
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target14">
+                a ramassé la boîte et l'a posée sur ses genoux.
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target15">
+                토요일에 일할 때 점심으로 샀던 피자 박스였다.
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target16">
+                C'était un samedi, et j'avais acheté cette pizza pour le
+                déjeuner au travail.
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target17">
+                일이 끝나자마자, 1시간 반 정도 걸리는
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target18">
+                Je m'étais mise en route dès que j'avais terminé ma journée
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target19">
+                파리의 한 갤러리에
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target20">
+                pour assister au spectacle d'une amie artiste,
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target21">
+                친구 아티스트의 퍼포먼스를 보러 갔다.
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target22">
+                qui devait avoir lieu dans une galerie à une heure et demie de
+                mon bureau.
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target23">
+                그녀는 한국인으로서, 외국인으로서 보낸 자신의
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target24">
+                Son spectacle consistait à raconter son séjour à Paris en tant
+                que Coréenne, une étrangère,
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target25">
+                파리 생활을 파리의 투어 가이드의 복장을 한 채로 설명했다.
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target26">
+                vêtue d'un costume de guide touristique.
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target27">
+                갤러리에서 나와 집으로 가는 길에는 자꾸만 박스를 떨어뜨렸다.
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target28">
+                Et moi, je n'arrêtais pas de faire tomber la boîte.
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target29">
+                그리고 같이 있던 한국인 친구들이 그 박스를 계속해서 주워 주었다.
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target30">
+                Et mes amies coréennes continuaient à la ramasser.
+              </p>
+            </div>
+
+            <div class="yellowpara">
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target31">
+                알 수 없는 유대가 흘렀다.
+              </p>
+              <p
+                data-splitting="words"
+                class="target split-words"
+                id="target32">
+                Un lien inexplicable nous unissait.
+              </p>
+            </div>
+          </div>
+        </article>
+        <!--End Yellow part-->
+
+        <!--Start Red part-->
+        <article class="soli-text" id="red">
+          <div class="redbox">
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target1r">
+                같이 일하는 동료 중의 한 명 A가,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target2r">
+                내가 처음 남자 동료들이 가득한 곳에서 일하기 시작할 때 즈음,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target3r">
+                “너가 우리팀의 분위기를 바꿔줄거야” 라고 말했다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target4r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target5r">
+                « Tu vas complètement changer l'ambiance de notre équipe ! »
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target6r">
+                m'a dit l'un de mes collègues, A,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target7r">
+                lorsque j'ai rejoint cette équipe composée majoritairement
+                d'hommes.
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target8r">
+                나는 그 말이 무슨 말인 지 이해할 수 있었지만,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target9r">
+                이해할 수 없었다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target10r">
+                이해하고 싶지 않았다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target11r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target12r">
+                Je n'ai pas pu comprendre où il voulait en venir,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target13r">
+                même en saisissant ses mots
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target14r">
+                En fait, je n'ai pas voulu le comprendre.
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target15r">
+                다른 동료 Q가
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target16r">
+                A가 남자 동료들만 모인 단톡방에 올린
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target17r">
+                음성을 들려주었다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target18r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target19r">
+                Un autre collègue, Q,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target20r">
+                m'a fait écouter un message vocal envoyé par A
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target21r">
+                dans le groupe de discussion des collègues hommes.
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target22r">
+                만다린인지 베트남어인 지 모를
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target23r">
+                이상한 언어를 섞은 악센트를
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target24r">
+                웃자고 흉내내는 음성이었다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target25r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target26r">
+                Dans ce message, il s'amusait à imiter un accent
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target27r">
+                en mélangeant des mots étranges,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target28r">
+                prétendument en « vietnamien » ou en « mandarin ».
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target29r">
+                “여기 아시아 식당이야”, 라고 말하는 그에게
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target30r">
+                나는 베트남 식당 아니야? 라고 다시 묻자,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target31r">
+                “베트남이 아시아지”, 라고 답했다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target32r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target33r">
+                Un jour, lorsqu'il a parlé d'un « restaurant asiatique »,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target34r">
+                je lui ai demandé s'il ne s'agissait pas d'un « restaurant
+                vietnamien »,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target35r">
+                et il a répondu : « Le Vietnam, c'est l'Asie. »
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target36r">
+                같이 일하는 직원이 나에게
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target37r">
+                “이 단어 스펠링이 뭐지?” 하고 묻더니
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target38r">
+                혼자 피식 웃으며 “아 왜 (외국인인) 너한테 물었지” 하고 나서
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target39r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target40r">
+                Et un autre jour, un autre collègue
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target41r">
+                m'a posé une question. « Ça s'écrit comment déjà ? »
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target42r">
+                Puis, il a ajouté, en laissant échapper un rire :
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target43r">
+                « Pourquoi je te (à toi, une étrangère) demande ça ? »
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target44r">
+                내 옆에 있던 다른 프랑스인 동료를 쳐다봤다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target45r">
+                그러니, 그는, “왜요? 저는 외국인 (étranger) 아닌데요.”
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target46r">
+                라고 대답했다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target47r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target48r">
+                Il a ensuite dirigé son regard vers un collègue français,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target49r">
+                qui a répondu : « C'est à moi que tu le demandes ?
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target50r">
+                Je ne suis pas étranger, moi. »
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target51r">
+                같이 일하는 또 다른 직원 B가,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target52r">
+                일하는 곳 주변에 아시안 마트가 있다길래
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target53r">
+                정말요? 어디에요? 하고 물으니,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target54r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target55r">
+                Un autre collègue, B, m'a parlé un jour
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target56r">
+                d'un supermarché asiatique près du bureau.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target57r">
+                Je lui ai alors demandé où il se trouvait.
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target58r">
+                “(지도를 보여주며) 여기 !
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target59r">
+                모든 Exotique한 것들은 다 있지”
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target60r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target61r">
+                À ma question, il a répondu en me montrant la carte :
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target62r">
+                « C'est là ! Tu peux y trouver tout ce qui est "exotique" ! »
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target63r">
+                어느 날, 새로 온 직원 C가 치파오를 입고 있길래,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target64r">
+                중국 옷이네? 하고 물으니,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target65r">
+                “응, 아시아 옷이야” 라고 대답했다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target66r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target67r">
+                Un autre jour encore, une nouvelle collègue, C,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target68r">
+                est venue au bureau en qipao.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target70r">
+                Je lui ai dit : « Tu es en robe chinoise aujourd'hui ! »
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target71r">
+                Elle m'a répondu : « Oui, c'est une robe asiatique ! »
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target63r">
+                어느 날, 새로 온 직원 C가 치파오를 입고 있길래,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target64r">
+                중국 옷이네? 하고 물으니,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target65r">
+                “응, 아시아 옷이야” 라고 대답했다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target66r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target67r">
+                Un autre jour encore, une nouvelle collègue, C,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target68r">
+                est venue au bureau en qipao.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target70r">
+                Je lui ai dit : « Tu es en robe chinoise aujourd'hui ! »
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target71r">
+                Elle m'a répondu : « Oui, c'est une robe asiatique ! »
+              </p>
+            </div>
+
+            <div class="redpara">
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target61r">
+                직원 D는 이런 저런 이야기를 하다가 문득,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target62r">
+                “이 사람은 중국인 무슬림 혼혈이더라.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target63r">
+                그래서 눈이 이—렇게 찢어졌어”라고 말하며
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target64r">
+                양손으로 눈을 찢는 제스쳐를 취했다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target64r"></p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target65r">
+                Lors d'une autre conversation, D a évoqué une personne
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target66r">
+                qui était « moitié chinoise, moitié musulmane » :
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target67r">
+                « Ses yeux étaient comme ça »,
+              </p>
+              <p
+                data-splitting="words"
+                class="targetred split-words"
+                id="target68r">
+                a-t-il ajouté en faisant un geste pour brider ses yeux.
+              </p>
+            </div>
+          </div>
+          <!--End Redbox-->
+        </article>
+        <!--End Red part-->
+
+        <article class="soli-text" id="green">
+          <div class="greenbox" id="greenbox">
+            <div class="greenpara" id="greenpara1">
+              <p
+                data-splitting="words"
+                class="targetgreen split-words"
+                id="target1g">
+                이제부터 나-여성은 법을 뛰어넘는다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetgreen split-words"
+                id="target2g">
+                Maintenant, je-femme vais sauter la loi
+              </p>
+            </div>
+
+            <div class="greenpara">
+              <p
+                data-splitting="words"
+                class="targetgreen split-words"
+                id="target3g">
+                이제부터 나-아시아인은 법을 뛰어넘는다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetgreen split-words"
+                id="target4g">
+                Maintenant, je-asiatique vais sauter la loi
+              </p>
+            </div>
+
+            <div class="greenpara">
+              <p
+                data-splitting="words"
+                class="targetgreen split-words"
+                id="target5g">
+                이제부터 나-개인은 법을 뛰어넘는다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetgreen split-words"
+                id="target6g">
+                Maintenant, je-individuel vais sauter la loi
+              </p>
+            </div>
+
+            <div class="greenpara">
+              <p
+                data-splitting="words"
+                class="targetgreen split-words"
+                id="target7g">
+                이제부터 나-소리는 법을 뛰어넘는다.
+              </p>
+              <p
+                data-splitting="words"
+                class="targetgreen split-words"
+                id="target8g">
+                Maintenant, je-Soli vais sauter la loi
+              </p>
+            </div>
+          </div>
+          <!--greenbox end-->
+        </article>
+        <!--End Green part-->
+      </section>
+      <!--END Soli-->
+
+      <section id="jahz">
+        <article id="door">
+          <div id="doorrect">
+            <img
+              src="./images/jahz/final-door.svg"
+              alt="door"
+              id="doorrectimg" />
+          </div>
+
+          <!-- <div id="doorhandle">
+            <img src="./images/jahz/door_handle.svg" alt="door handle" />
+          </div> -->
+        </article>
+
+        <div class="door-opening"></div>
+
+        <article id="bodies">
+          <div id="scrollButton">
+            <div class="scroll-down" id="scroll-down1"></div>
+            <div class="scroll-down" id="scroll-down2"></div>
+          </div>
+
+          <div id="introtext">
+            <video playsinline autoplay loop muted width="250">
+              <source
+                src="./images/jahz/1130_Jahz_title.mp4"
+                type="video/mp4" />
+            </video>
+          </div>
+
+          <div id="skeleton">
+            <img
+              src="./images/jahz/1130_Jahz_skeleton.png"
+              alt="skeleton body" />
+          </div>
+
+          <div id="jahztext">
+            <img
+              src="./images/jahz/1208_Jahz03.svg"
+              alt="Text for Jahz artist area" />
+          </div>
+
+          <!--ORGAN BODY-->
+          <div id="twobodies1">
+            <img src="./images/jahz/1130_Jahz_organs.png" alt="Organ body" />
+          </div>
+
+          <!--MUSCLE BODY-->
+          <div id="twobodies2">
+            <img src="./images/jahz/1130_Jahz_muscle.png" alt="Muscle body" />
+          </div>
+
+          <!--BLOOD BODY-->
+          <div id="twobodies3">
+            <img src="./images/jahz/1130_Jahz_blood.png" alt="Blood body" />
+          </div>
+        </article>
+        <!--END BODIES-->
+
+        <div id="textKnockDoorKR1" class="textKnockDoor"></div>
+        <div id="textKnockDoorEN1" class="textKnockDoor"></div>
+        <div id="textKnockDoorFR1" class="textKnockDoor"></div>
+        <div id="textKnockDoorKR2" class="textKnockDoor"></div>
+        <div id="textKnockDoorEN2" class="textKnockDoor"></div>
+        <div id="textKnockDoorFR2" class="textKnockDoor"></div>
+      </section>
+
+      <section id="shirley">
+        <video playsinline autoplay loop muted width="250">
+          <source
+            src="./images/shirley/1211_Shirley_10s_final.mp4"
+            type="video/mp4" />
+        </video>
+      </section>
+    </main>
+
+    <script src="./js/interaction.js"></script>
+    <script src="./js/maria2.js"></script>
+    <script src="./js/text_envelop.js"></script>
+    <script src="./js/knockdoor.js"></script>
+    <script src="./js/gsap.min.js"></script>
+    <script src="./js/ScrollTrigger.min.js"></script>
+    <script src="./js/splitting.min.js"></script>
+    <script>
+      Splitting();
+    </script>
+    <script src="./js/yellow.js"></script>
+    <script src="./js/red.js"></script>
+    <script src="./js/green.js"></script>
+    <script src="./js/jahz2.js"></script>
+  </body>
+</html>
