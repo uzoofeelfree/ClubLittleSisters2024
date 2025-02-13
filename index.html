@@ -1696,7 +1696,19 @@
         </video>
       </section>
     </main>
+    <script>
+      	window.addEventListener("DOMContentLoaded", (event) => {
+    		var hasTouchScreen = false;
 
+			if ("maxTouchPoints" in navigator) {
+				hasTouchScreen = navigator.maxTouchPoints > 0;
+			} 
+
+			if (hasTouchScreen) {
+				alert("이 사이트는 PC 환경에 최적화되어 있습니다. 데스크톱에서 보기를 추천드립니다.");
+			}
+				});
+    </script>
     <script src="./js/interaction.js"></script>
     <script src="./js/maria2.js"></script>
     <script src="./js/text_envelop.js"></script>
