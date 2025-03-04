@@ -1,3 +1,5 @@
+/*Desktop HIDPI 1920 x 1080 https://blisk.io/devices*/
+/*@media only screen and (min-width: 1441px) and (max-width: 1920px)*/
 @font-face {
   font-family: "Pretendard-Regular";
   src: url("../fonts/Pretendard-Regular.woff2") format("woff2"),
@@ -45,13 +47,14 @@ body {
   width: 100%;
   height: 100%;
   overflow: auto;
-  -ms-overflow-style:none;
+  -ms-overflow-style: none;
 }
 
 .container {
-  width: 24960px;
-  /* height: 9720px; */
-  height: 10800px;
+  /* width: 24960px; */
+  width: 30720px;
+  /* height: 10800px; */
+  height: 12960px;
   position: relative;
   /* background-image: url("../images/grid.png");
   background-size: contain;
@@ -217,7 +220,8 @@ body {
 #mathilde-right {
   position: absolute;
   top: 315vh;
-  left: 569vw;
+  /* left: 569vw; */
+  left: 650vw;
 }
 #maria-left-bottom {
   position: absolute;
@@ -1153,7 +1157,9 @@ body {
   cursor: pointer;
 }
 
-#m40, #m41, #m42{
+#m40,
+#m41,
+#m42 {
   z-index: 5;
 }
 
